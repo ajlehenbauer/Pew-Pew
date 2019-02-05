@@ -1,0 +1,17 @@
+How to Play
+
+Use the arrow keys or keys 'a','s','d', and 'w' to move
+your character. Aim your mouse where you want to shoot
+and right click the mouse to fire. 
+
+Fight through as many rounds as you can, each has more
+enemies than the last. Most enemies take one bullet to kill,
+but look out! If two enemies touch eachother they merge.
+Both increasing in size and health. You only have a limited
+health which is shown by the red bar at the top of the screen.
+Health resets at the end o each round.
+
+The radar in the bottom right shows the direction of all enemies
+currently not in your view.
+
+Good luck!

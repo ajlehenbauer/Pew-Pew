@@ -1,0 +1,54 @@
+General description: An rpg style fighting game, with a top-down
+view of the character. Enemies spawn in waves of increasing difficultly
+Player is able to choose character color. Character is
+centered on screen until they reach the border of the map.
+
+
+Resources:
+images for character and background
+background music and gun sounds
+
+
+Opening menu
+
+Start button
+
+	Easy/Hard
+
+Game play
+
+Classes:
+
+player class
+	variables
+		chy,chx-position variables
+		c-color variable
+		w-weapon
+		array bullets
+	methods
+		display(int,int)-draws character
+		move-changes the position
+		shootBullets();
+		drawBullets();
+	
+
+
+
+enemies class
+	variables
+		x,y-postion variables
+		c-color 
+		array bullets
+	methods
+		draw
+		move
+		isAlive
+		kill
+		shootBullets();
+		drawBullets();
+
+Other implementations:
+
+ArrayList of enemies
+shoot bullets on mousepress
+player faces towards mouse location
