@@ -23,7 +23,7 @@ AudioInput input;
 AudioPlayer pew;
 AudioPlayer enemyPew;
 AudioPlayer backgroundMusic;
-  AudioPlayer ahh;
+AudioPlayer ahh;
 
 int round;
 Player o;
@@ -39,8 +39,8 @@ void setup() {
 
   pew = minim.loadFile("pewpew.wav");
   enemyPew = minim.loadFile("peew.wav");
-  backgroundMusic=minim.loadFile("backgroundmusic.mp3");
-  backgroundMusic.play();
+  //backgroundMusic=minim.loadFile("backgroundmusic.mp3");
+  //backgroundMusic.play();
   input = minim.getLineIn();
   o = new Player(width/6, width/2);
   two = new Player(2*width/6, width/2);
